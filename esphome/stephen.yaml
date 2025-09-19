@@ -45,7 +45,7 @@ esp32:
 logger:
 api:
   encryption:
-   key: !secret encryption_key
+   key: "0LhV2cpQlMzZWvZo0kXwO06gQ6/t7ZFQ15H9Z1JPpPs="
   services:
     - service: start_va
       then:
